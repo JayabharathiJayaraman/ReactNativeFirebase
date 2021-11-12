@@ -17,7 +17,9 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier":"com.ithogskolan.fantasticapp",
+      "googleServicesFile":"./GoogleService-Info.plist"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,8 +27,22 @@
         "backgroundColor": "#FFFFFF"
       }
     },
+    "expo": {
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "config":{
+        "firebase":{
+          "apiKey": "AIzaSyA4OqtAsDMm6HY68JBQl6VZD7Z7caeFXto",
+          "authDomain": "fantasticexpoproject.firebaseapp.com",
+          "databaseURL": "https://fantasticexpoproject-default-rtdb.firebaseio.com",
+          "projectId": "fantasticexpoproject",
+          "storageBucket": "fantasticexpoproject.appspot.com",
+          "messagingSenderId": "130398239135",
+          "appId": "1:130398239135:web:6910b827ea0b38c89125aa",
+          "measurementId": "G-VGZNG8F8HD"
+        }
+      }
     }
+  }
   }
 }
